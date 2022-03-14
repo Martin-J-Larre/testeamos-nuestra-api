@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:client": "node src/test/test.client.js",
     "test": "node benchmark.js",
-    "start": "0x  index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
